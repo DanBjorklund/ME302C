@@ -1,0 +1,13 @@
+#
+# switch button driver configuration
+#
+
+# Joe add for switch button driver ++
+
+config SWITCH_BUTTON
+	tristate "switch button support"
+	depends on GENERIC_GPIO
+	help
+	  Say y here if you have an switch button.
+
+# Joe add for switch button driver --
